@@ -50,8 +50,30 @@
   75% {
     opacity: 0;
   }
-
+  
   100% {
     opacity: 0.7;
   }
+}
+
+/* Стили для ошибки */
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 20px;
+}
+
+.error__title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+}
+
+.more-button {
+  width: 100%;
+  margin-top: 30px;
 }
